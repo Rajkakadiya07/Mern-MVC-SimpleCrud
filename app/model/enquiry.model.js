@@ -1,6 +1,5 @@
 
 let mongoose = require("mongoose");
-require("dotenv").config();
 
 
 let userEnquiry = mongoose.Schema({
