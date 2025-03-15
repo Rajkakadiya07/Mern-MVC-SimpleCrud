@@ -1,8 +1,7 @@
-const express = require("express");
+
 let mongoose = require("mongoose");
 require("dotenv").config();
 
-const app = express();
 
 let userEnquiry = mongoose.Schema({
   name: { type: String, required: true },
